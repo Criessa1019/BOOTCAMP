@@ -1,0 +1,40 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    background: #f5a623;
+}
+
+.hero-text {
+    max-width: 450px;
+}
+
+.hero-text h1 {
+    font-size: 100px;
+    font-weight: 900;
+    color: white;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #7dd6d6;
+    color: black;
+    border: none;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-img img {
+    width: 500px;
+    object-fit: contain;
+}

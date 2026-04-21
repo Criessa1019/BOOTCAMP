@@ -1,0 +1,30 @@
+.reglas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 40px;
+    background: white;
+    gap: 40px;
+}
+
+.reglas-text {
+    max-width: 450px;
+}
+
+.reglas-text h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.reglas-text p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.7;
+}
+
+.reglas-img img {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 5px;
+}

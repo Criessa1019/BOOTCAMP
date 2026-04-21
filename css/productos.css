@@ -1,0 +1,46 @@
+.productos {
+    padding: 60px 40px;
+    background: #c8ecec;
+    text-align: center;
+}
+
+.productos h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.tarjeta img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.tarjeta p {
+    font-size: 14px;
+    color: #333;
+}
+
+.btn-naranja {
+    background: #f5a623;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}

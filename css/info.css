@@ -1,0 +1,18 @@
+.info {
+    padding: 60px 40px;
+    text-align: center;
+    background: white;
+}
+
+.info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 15px;
+    color: #333;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
