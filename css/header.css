@@ -28,3 +28,18 @@
     font-size: 14px;
     font-weight: bold;
 }
+
+/* ── RESPONSIVE CELULAR ── */
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .nav {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+}

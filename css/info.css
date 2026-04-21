@@ -16,3 +16,18 @@
     margin: 0 auto;
     line-height: 1.7;
 }
+
+/* ── RESPONSIVE CELULAR ── */
+@media (max-width: 600px) {
+    .info {
+        padding: 40px 20px;
+    }
+
+    .info h2 {
+        font-size: 20px;
+    }
+
+    .info p {
+        font-size: 14px;
+    }
+}
