@@ -38,3 +38,30 @@
     width: 500px;
     object-fit: contain;
 }
+
+/* ── RESPONSIVE CELULAR ── */
+@media (max-width: 600px) {
+    .hero {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 60px;
+    }
+
+    .hero-text p {
+        font-size: 15px;
+    }
+
+    .hero-img img {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 30px;
+    }
+}
