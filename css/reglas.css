@@ -28,3 +28,24 @@
     max-width: 380px;
     border-radius: 5px;
 }
+
+/* ── RESPONSIVE CELULAR ── */
+@media (max-width: 600px) {
+    .reglas {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .reglas-text {
+        max-width: 100%;
+    }
+
+    .reglas-text h2 {
+        font-size: 22px;
+    }
+
+    .reglas-img img {
+        max-width: 100%;
+    }
+}
